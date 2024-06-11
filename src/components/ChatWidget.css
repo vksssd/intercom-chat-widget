@@ -1,0 +1,43 @@
+/* src/styles/ChatWidget.css */
+.chat-widget {
+  position: fixed;
+  bottom: 80px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background: white;
+  z-index: 1000;
+}
+
+.chat-widget.right {
+  right: 20px;
+}
+
+.chat-widget.left {
+  left: 20px;
+}
+
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chat-icon.right {
+  right: 20px;
+}
+
+.chat-icon.left {
+  left: 20px;
+}
+
+.chat-icon img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,10 @@
+/* src/components/ChatHeader.css */
+.chat-header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+  }
+  
